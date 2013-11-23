@@ -21,6 +21,7 @@
 		B21E4328184141A4002FF485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21E430A184141A2002FF485 /* UIKit.framework */; };
 		B21E4330184141A4002FF485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21E432E184141A4002FF485 /* InfoPlist.strings */; };
 		B21E4332184141A4002FF485 /* RecipePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E4331184141A4002FF485 /* RecipePhotoTests.m */; };
+		B21E433D18414ECE002FF485 /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E433C18414ECE002FF485 /* RecipeCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B21E432D184141A4002FF485 /* RecipePhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipePhotoTests-Info.plist"; sourceTree = "<group>"; };
 		B21E432F184141A4002FF485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B21E4331184141A4002FF485 /* RecipePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoTests.m; sourceTree = "<group>"; };
+		B21E433B18414ECE002FF485 /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		B21E433C18414ECE002FF485 /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B21E4318184141A2002FF485 /* Main.storyboard */,
 				B21E431B184141A3002FF485 /* ViewController.h */,
 				B21E431C184141A3002FF485 /* ViewController.m */,
+				B21E433B18414ECE002FF485 /* RecipeCollectionViewController.h */,
+				B21E433C18414ECE002FF485 /* RecipeCollectionViewController.m */,
 				B21E431E184141A3002FF485 /* Images.xcassets */,
 				B21E430D184141A2002FF485 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21E433D18414ECE002FF485 /* RecipeCollectionViewController.m in Sources */,
 				B21E431D184141A3002FF485 /* ViewController.m in Sources */,
 				B21E4317184141A2002FF485 /* AppDelegate.m in Sources */,
 				B21E4313184141A2002FF485 /* main.m in Sources */,
@@ -460,6 +466,7 @@
 				B21E4337184141A4002FF485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B21E4338184141A4002FF485 /* Build configuration list for PBXNativeTarget "RecipePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				B21E433A184141A4002FF485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
